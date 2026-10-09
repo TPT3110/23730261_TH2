@@ -1,4 +1,4 @@
-# LƯU HẢI QUÂN · 23730261 · https://github.com/USERNAME/23730261_TH2.git · Stamp 075370 · Số cuối 1 · VARIANT Dưới/phone/shopFirst/selection/B/card
+# LƯU HẢI QUÂN · 23730261 · https://github.com/TPT3110/23730261_TH2.git · Stamp 075370 · Số cuối 1 · VARIANT Dưới/phone/shopFirst/selection/B/card
 
 ## KTXGo TH2
 
@@ -30,5 +30,3 @@ Sau khi chạy máy ảo, lưu ảnh vào:
 
 - `docs/screenshot-th2-home.png`
 - `docs/screenshot-th2-cart.png`
-
-Thay `USERNAME` ở dòng đầu bằng tài khoản GitHub trước khi nộp.
