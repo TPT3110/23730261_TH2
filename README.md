@@ -30,3 +30,7 @@ Sau khi chạy máy ảo, lưu ảnh vào:
 
 - `docs/screenshot-th2-home.png`
 - `docs/screenshot-th2-cart.png`
+
+![Màn hình cửa hàng KTXGo](docs/screenshot-th2-home.png)
+
+![Màn hình giỏ hàng KTXGo](docs/screenshot-th2-cart.png)
