@@ -26,7 +26,7 @@ export default function HomeScreen({navigation}: Props): React.JSX.Element {
       ListHeaderComponent={<View>
         <View style={styles.header}><View><Text style={styles.brand}>KTXGO</Text><Text style={styles.room}>Giao tận {ROOM_LABEL}</Text></View></View>
         <Image source={{uri: `https://picsum.photos/id/${BANNER_IMAGE_ID}/800/240`}} style={styles.banner} />
-        <TextInput style={styles.search} value={search} onChangeText={setSearch} placeholder={`Tìm món (debounce) - ${STUDENT.mssv}`} placeholderTextColor={COLORS.textLight} />
+        <TextInput style={styles.search} value={search} onChangeText={setSearch} placeholder={`Tìm món (debounce ${DEBOUNCE_MS}ms) - ${STUDENT.mssv}`} placeholderTextColor={COLORS.textLight} />
         <Text style={styles.section}>Món dành cho bạn</Text>
         {isPending && <View style={styles.state}><ActivityIndicator size="large" color={COLORS.primary} /><Text style={styles.loadingText}>Đang tải món...</Text></View>}
         {isError && <View style={styles.state}><Text style={styles.errorMssv}>{STUDENT.mssv}</Text><Text style={styles.error}>Không tải được dữ liệu món.</Text><Pressable style={styles.retry} onPress={() => refetch()}><Text style={styles.retryText}>Thử lại</Text></Pressable></View>}
